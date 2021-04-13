@@ -113,23 +113,14 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8916/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libactuator_dw9714.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libactuator_dw9714_15035.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_15035.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libactuator_dw9714_15035_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_15035_camcorder.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libactuator_dw9714_15035_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_15035_camera.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libactuator_dw9714_15399.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_15399.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libactuator_dw9714_15399_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_15399_camcorder.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libactuator_dw9714_15399_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_15399_camera.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libactuator_dw9714_15095.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_15095.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libactuator_dw9714_15095_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_15095_camcorder.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libactuator_dw9714_15095_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_15095_camera.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_camcorder.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libactuator_dw9714_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_camera.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libactuator_dw9714_v78s85.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_v78s85.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libactuator_dw9714_v78s85_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_v78s85_camcorder.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libactuator_dw9714_v78s85_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_v78s85_camera.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libactuator_dw9718.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9718.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libactuator_dw9718_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9718_camcorder.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libactuator_dw9718_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9718_camera.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz_camcorder.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz_camera.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadiertac.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
@@ -143,24 +134,26 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8916/proprietary/vendor/lib/libcalmodule_gyroscope.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcalmodule_gyroscope.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libcalmodule_memsic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcalmodule_memsic.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libcalmodule_yamaha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcalmodule_yamaha.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_hi545_15399_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_hi545_15399_common.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_hi545_15399_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_hi545_15399_default_video.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_hi545_15399_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_hi545_15399_preview.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_hi545_15399_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_hi545_15399_snapshot.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_imx179_15399_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx179_15399_common.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_imx179_15399_common_new.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx179_15399_common_new.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_imx179_15399_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx179_15399_default_video.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_imx179_15399_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx179_15399_hfr_120.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_imx179_15399_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx179_15399_liveshot.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_imx179_15399_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx179_15399_preview.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_imx179_15399_preview_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx179_15399_preview_binning.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_imx179_15399_preview_binning_new.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx179_15399_preview_binning_new.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_imx179_15399_preview_new.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx179_15399_preview_new.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_imx179_15399_preview_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx179_15399_preview_sunny.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_imx179_15399_preview_sunny_new.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx179_15399_preview_sunny_new.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_imx179_15399_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx179_15399_snapshot.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_imx179_15399_video_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx179_15399_video_binning.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_imx179_15399_video_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx179_15399_video_hd.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15009_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15009_common.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15009_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15009_default_video.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15009_default_video_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15009_default_video_hd.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15009_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15009_preview.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15009_preview_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15009_preview_cmcc.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15009_preview_fb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15009_preview_fb.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15009_small_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15009_small_video.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15009_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15009_snapshot.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15009_snapshot_fb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15009_snapshot_fb.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15009_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15009_zsl.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15029_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15029_common.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15029_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15029_default_video.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15029_default_video_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15029_default_video_hd.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15029_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15029_preview.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15029_preview_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15029_preview_cmcc.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15029_preview_fb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15029_preview_fb.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15029_small_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15029_small_video.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15029_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15029_snapshot.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15029_snapshot_fb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15029_snapshot_fb.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15029_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15029_zsl.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15035_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15035_common.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15035_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15035_default_video.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15035_default_video_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15035_default_video_hd.so \
@@ -171,44 +164,16 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15035_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15035_snapshot.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15035_snapshot_fb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15035_snapshot_fb.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15035_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15035_zsl.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15399_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15399_common.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15399_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15399_default_video.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15399_default_video_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15399_default_video_hd.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15399_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15399_preview.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15399_preview_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15399_preview_cmcc.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15399_preview_fb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15399_preview_fb.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15399_small_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15399_small_video.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15399_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15399_snapshot.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15399_snapshot_fb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15399_snapshot_fb.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15399_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15399_zsl.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k3h7_15035_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3h7_15035_common.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k3h7_15035_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3h7_15035_default_video.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k3h7_15035_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3h7_15035_preview.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k3h7_15035_preview_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3h7_15035_preview_cmcc.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k3h7_15035_small_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3h7_15035_small_video.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k3h7_15035_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3h7_15035_snapshot.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k3h7_15035_snapshot_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3h7_15035_snapshot_cmcc.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k3h7_15035_zsl_off.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3h7_15035_zsl_off.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k3h7_15399_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3h7_15399_common.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k3h7_15399_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3h7_15399_default_video.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k3h7_15399_default_video_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3h7_15399_default_video_otp.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k3h7_15399_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3h7_15399_preview.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k3h7_15399_preview_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3h7_15399_preview_cmcc.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k3h7_15399_preview_new.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3h7_15399_preview_new.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k3h7_15399_preview_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3h7_15399_preview_otp.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k3h7_15399_preview_otp_new.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3h7_15399_preview_otp_new.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k3h7_15399_small_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3h7_15399_small_video.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k3h7_15399_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3h7_15399_snapshot.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k3h7_15399_snapshot_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3h7_15399_snapshot_cmcc.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k3h7_15399_snapshot_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3h7_15399_snapshot_otp.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k3h7_15399_zsl_off.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3h7_15399_zsl_off.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k3h7_8916_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3h7_8916_common.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k3h7_8916_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3h7_8916_default_video.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k3h7_8916_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3h7_8916_preview.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k3h7_8916_preview_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3h7_8916_preview_cmcc.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k3h7_8916_small_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3h7_8916_small_video.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k3h7_8916_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3h7_8916_snapshot.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k3h7_8916_zsl_off.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3h7_8916_zsl_off.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15037_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15037_common.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15037_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15037_default_video.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15037_default_video_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15037_default_video_hd.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15037_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15037_preview.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15037_preview_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15037_preview_cmcc.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15037_preview_fb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15037_preview_fb.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15037_small_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15037_small_video.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15037_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15037_snapshot.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15037_snapshot_fb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15037_snapshot_fb.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_ov5648_15037_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_15037_zsl.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k4h8_8916_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_8916_common.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k4h8_8916_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_8916_default_video.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libchromatix_s5k4h8_8916_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_8916_preview.so \
@@ -265,29 +230,32 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_gt24c64a_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_gt24c64a_eeprom.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hdr_gb_lib.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_hdr_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hdr_lib.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_hi545_15399.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hi545_15399.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_hynix_hi545_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hynix_hi545_eeprom.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_imglib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_imx179_15399.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx179_15399.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_omnivision_5648_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_omnivision_5648_eeprom.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_imx278.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx278.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_ov5648_15009.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5648_15009.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_ov5648_15029.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5648_15029.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_ov5648_15035.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5648_15035.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_ov5648_15399.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5648_15399.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_ov5648_15037.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5648_15037.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_ov8858.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8858.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_ov8858_15011.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8858_15011.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_ov8858_15085.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8858_15085.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdaf.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_pdafcamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdafcamif.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_qtech_s5k4h8_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_qtech_s5k4h8_eeprom.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_s5k3h7_15035.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3h7_15035.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_s5k3h7_15399.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3h7_15399.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_s5k3h7_15037.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3h7_15037.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_s5k3h7_8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3h7_8916.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_s5k3l8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3l8.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_s5k3l8_15022.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3l8_15022.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_s5k3m2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3m2.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_s5k3m2_15011.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3m2_15011.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_s5k4h8_8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8_8916.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_sony_imx179_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_imx179_eeprom.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_sunny_cat24c64_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_cat24c64_eeprom.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_sunny_f13s01l_3l8_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_f13s01l_3l8_eeprom.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_sunny_f13s01l_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_f13s01l_eeprom.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_truly_cm7700_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_truly_cm7700_eeprom.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_truly_s5k3h7_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_truly_s5k3h7_eeprom.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_truly_s5k3h7_new_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_truly_s5k3h7_new_eeprom.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_wavelet_lib.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libmmipl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmipl.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
@@ -309,7 +277,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8916/proprietary/vendor/lib/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_csi.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_encdec.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmiservices.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libril-qc-qmi-1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qc-qmi-1.so \
