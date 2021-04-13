@@ -19,6 +19,12 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oppo/msm8916
 
 PRODUCT_COPY_FILES += \
+    vendor/oppo/msm8916/proprietary/lib/hw/camera.vendor.msm8916.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.vendor.msm8916.so \
+    vendor/oppo/msm8916/proprietary/lib/libarcsoft_flawless_face_hal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_flawless_face_hal.so \
+    vendor/oppo/msm8916/proprietary/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmcamera_interface.so \
+    vendor/oppo/msm8916/proprietary/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmjpeg_interface.so \
+    vendor/oppo/msm8916/proprietary/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmm-qcamera.so \
+    vendor/oppo/msm8916/proprietary/lib/libqomx_core.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqomx_core.so \
     vendor/oppo/msm8916/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/oppo/msm8916/proprietary/vendor/bin/imscmservice:$(TARGET_COPY_OUT_VENDOR)/bin/imscmservice \
     vendor/oppo/msm8916/proprietary/vendor/bin/imsdatadaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsdatadaemon \
@@ -277,7 +283,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8916/proprietary/vendor/lib/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_csi.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_encdec.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmiservices.so \
-    vendor/oppo/msm8916/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
+    vendor/oppo/msm8916/proprietary/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so \
+        vendor/oppo/msm8916/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libril-qc-qmi-1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qc-qmi-1.so \
     vendor/oppo/msm8916/proprietary/vendor/lib/libril-qc-radioconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qc-radioconfig.so \
